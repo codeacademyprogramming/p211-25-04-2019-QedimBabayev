@@ -1,0 +1,176 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Saira Extra Condensed', sans-serif;
+}
+.hr{
+    color: #868e96;
+    margin-top: 50px;
+    padding-left: 0;
+}
+.container{
+    width: 95%;
+    margin: auto;
+}
+li{
+list-style-type: none;
+
+}
+a{
+    text-decoration: none;
+}
+
+body{
+    height: 5000px;
+}
+.header header{
+    background-color: #bd5d38;
+    position: fixed;
+    height: 100vh;
+    text-align: center;
+    padding-top: 119px;
+    width: 268px;
+   
+    
+
+}
+.header header img{
+    width: 160px;
+    border: 6px solid rgba(255,255,255,.2);
+    border-radius: 100%;
+}
+.header ul{
+    padding:20px;
+}
+.header ul li{
+    list-style-type: none;
+    padding: 7px;
+  }
+  .header  ul a{
+    color: rgba(255,255,255,.5);
+    text-decoration: none;
+    transition: all 0.3s linear;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 1.3em;
+
+    
+
+  }
+  .header  ul a:hover{
+      color:rgba(255,255,255,.75);
+  }
+  .firstpage{
+ background-color:white;
+ padding-left: 316px;
+  }
+  #top .firstpage .clearence{
+      color:black;
+
+  }
+  #top .firstpage .taylor{
+      color:#bd5d38;
+      padding-left: 10px;
+  }
+  .headingclasses{
+      display: flex;
+    padding-top: 135px;    
+    font-size: 65px;  
+ }
+ #top .firstpage .title{
+     display: flex;
+     font-size: 23px;
+
+ }
+  #top .firstpage .title .berry{
+     color: #868e96;
+ }
+ #top .firstpage .title .name a{
+     color: #bd5d38;
+ }
+ .firstpage p{
+    color: #868e96;
+    margin: 40px 0;
+    font-weight: 400;
+    font-size: 1.5em;
+   
+}
+.icons a{
+    display: inline-block;
+    height: 3.5em;
+    width: 3.5em;
+    background-color: #495057;
+    color: #fff;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 3.5em;
+    font-size: 1.2em;
+    margin-right: 1.2em;
+
+}
+#top .icons a:hover{
+   background-color:  #bd5d38;
+}
+#top .firstpage{
+    background-color: #fff;
+    height: 100vh;
+}
+#experience p{
+    font-size: 21px;
+    width: 540px;
+}
+.mainheading {
+    padding-top: 50px;
+    font-size: 3.5em;
+}
+.firstpage h3{
+    font-size: 2em;
+    margin-top: 15px;
+    color: #343a40;
+    display: inline-block;
+}
+.firstpage  h4{
+    color: #868e96;
+    margin-top: 1px;
+    font-size: 1.5em;
+    font-weight: 600;
+
+}
+.firstpage .h3andspan {
+    display: flex;
+justify-content: space-between;
+
+}
+.firstpage span{
+    color: #bd5d38;
+    width: 191px;
+    font-size: 20px;
+    letter-spacing: 0.1px;
+}
+#skills ul{
+    display: flex;
+    justify-content: space-between;
+    font-size: 50px;
+    color: #868e96;
+    width: 800px;
+    padding-left:0;
+    
+}
+#skils ul .list-item{
+    padding: 0 5px;
+    transition: all 0.3s linear;
+}
+#skills ul .list-item:hover{
+    color: #bd5d38;
+}
+#skills .skillstext {
+    font-size: 17px;
+    margin: 5px 0;
+}
+#awards .awardstext{
+    font-size: 20px;
+    margin:5px 0;
+}
+#awards .awardstext .iconend{
+    color: #ffc107;
+}
